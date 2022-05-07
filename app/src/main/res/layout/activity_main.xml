@@ -24,6 +24,9 @@
         android:layout_marginTop="549dp"
         android:layout_marginEnd="-6dp"
         android:layout_marginBottom="139dp"
+        android:background="#D3D3D3"
+        android:padding="2sp"
+        android:paddingTop="2sp"
         android:scrollHorizontally="true"
         android:singleLine="true"
         android:text="This is the app for voting anybody above 18 can vote and user must hold the election card"
@@ -32,19 +35,21 @@
 
     <Button
         android:id="@+id/btn1"
-        android:layout_width="300dp"
-        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="602dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginTop="611dp"
+        android:layout_marginBottom="50dp"
         android:shadowColor="#656565"
         android:text="Get started"
+        app:cornerRadius="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895" />
+
 </RelativeLayout>
