@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:backgroundTintMode="src_in"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_1"
+    android:id="@+id/MainLayout"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="139dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="This is the app for voting anybody above 18 can vote and user must hold the election card"
+        android:textColor="@color/black"
+        android:textSize="24sp"></TextView>
 
     <Button
         android:id="@+id/btn1"
         android:layout_width="300dp"
         android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="602dp"
+        android:layout_marginBottom="59dp"
         android:shadowColor="#656565"
         android:text="Get started"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.895" />
+</RelativeLayout>
