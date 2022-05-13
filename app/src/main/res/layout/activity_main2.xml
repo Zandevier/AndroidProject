@@ -8,14 +8,14 @@
 
 
     <RelativeLayout
-        android:layout_width="369dp"
-        android:layout_height="544dp"
+        android:layout_width="367dp"
+        android:layout_height="542dp"
         android:background="@drawable/solid_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497"
+        app:layout_constraintVertical_bias="0.703"
         tools:ignore="MissingConstraints">
 
         <TextView
@@ -51,10 +51,14 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="81dp"
-            android:layout_marginTop="345dp"
+            android:layout_marginTop="347dp"
             android:layout_marginEnd="74dp"
-            android:layout_marginBottom="128dp"
+            android:layout_marginBottom="126dp"
             android:text="Login"
+            android:elevation="20dp"
+            android:shadowColor="@android:color/darker_gray"
+            android:shadowDx="10"
+            android:shadowDy="10"
             app:cornerRadius="20dp" />
 
         <EditText
@@ -64,10 +68,16 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginStart="48dp"
             android:layout_marginTop="230dp"
             android:layout_marginEnd="37dp"
+            android:layout_marginBottom="260dp"
             android:ems="10"
+            android:background="@drawable/custom_input"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/lock_icon"
             android:hint="Password"
             android:inputType="textPassword"
             android:textAlignment="center"
@@ -81,14 +91,49 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:layout_marginStart="48dp"
             android:layout_marginTop="158dp"
             android:layout_marginEnd="37dp"
             android:layout_marginBottom="333dp"
             android:ems="10"
+            android:drawableStart="@drawable/user_logo"
+            android:background="@drawable/custom_input"
             android:hint="Username"
             android:inputType="textPersonName"
             android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="315dp"
+            android:layout_height="26dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="472dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="44dp"
+            android:text="If don't have account please register yourself"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="62dp"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="272dp"
+            android:layout_marginBottom="20dp"
+            android:text="Signup"
+            android:textColor="#3F51B5"
+            android:textSize="16sp" />
     </RelativeLayout>
 
 

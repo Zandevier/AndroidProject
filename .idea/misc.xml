@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/background_1.xml" value="0.1675" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/border_bottom.xml" value="0.2195" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/custom_input.xml" value="0.2195" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/solid_border.xml" value="0.2195" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main3.xml" value="0.264" />
       </map>
     </option>
   </component>
