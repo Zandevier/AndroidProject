@@ -10,10 +10,12 @@ import android.widget.Button;
 import android.content.Intent;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     public Button button;
     public TextView text;
+    public ImageView img;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         text.setEllipsize(TextUtils.TruncateAt.MARQUEE);
         text.setSelected(true);
 
+        img = (ImageView) findViewById(R.id.img);
+        img.setElevation(10);
 
         button = (Button) findViewById(R.id.btn1);
         button.setOnClickListener(new View.OnClickListener() {

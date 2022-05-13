@@ -33,6 +33,20 @@
         android:textColor="@color/black"
         android:textSize="24sp"></TextView>
 
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="63dp"
+        app:srcCompat="@drawable/arr" />
+
     <Button
         android:id="@+id/btn1"
         android:layout_width="300dp"
@@ -40,8 +54,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="611dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginTop="608dp"
+        android:layout_marginBottom="53dp"
         android:shadowColor="#656565"
         android:text="Get started "
         app:cornerRadius="30sp"
@@ -51,5 +65,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895" />
+
 
 </RelativeLayout>
