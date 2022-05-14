@@ -53,17 +53,17 @@
         app:layout_constraintVertical_bias="0.895" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="32dp"
-        android:layout_height="34dp"
+        android:id="@+id/img"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
         android:layout_alignStart="@+id/btn1"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="186dp"
-        android:layout_marginTop="626dp"
-        android:layout_marginEnd="110dp"
-        android:layout_marginBottom="71dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="65dp"
         app:srcCompat="@drawable/arrow" />
 
 
