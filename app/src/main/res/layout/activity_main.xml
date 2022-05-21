@@ -29,7 +29,7 @@
         android:paddingTop="2sp"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:text="This is the app for voting anybody above 18 can vote and user must hold the election card"
+        android:text="NOTE : Citizens above 18 years are eligible for voting and they should voter card"
         android:textColor="@color/black"
         android:textSize="24sp"></TextView>
 
@@ -65,6 +65,19 @@
         android:layout_marginEnd="104dp"
         android:layout_marginBottom="65dp"
         app:srcCompat="@drawable/arrow" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="391dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginBottom="216dp"
+        app:srcCompat="@drawable/applogo" />
 
 
 </RelativeLayout>
