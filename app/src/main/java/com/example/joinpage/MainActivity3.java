@@ -49,6 +49,13 @@ public class MainActivity3 extends AppCompatActivity {
         voterid_img = (TextView) findViewById(R.id.voterid_img);
         upload_img = (TextView) findViewById(R.id.upload_img);
 
+//        ActivityResultLauncher<String> launcher = registerForActivityResult(new ActivityResultContracts.GetContent(), new ActivityResultCallback<Uri>() {
+//            @Override
+//            public void onActivityResult(Uri result) {
+//                uri = data.getData();
+//            }
+//        });
+
         upload_img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

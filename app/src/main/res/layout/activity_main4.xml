@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="@drawable/background_1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="407dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="345dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/explore" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:layout_alignTop="@+id/imageView2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="332dp"
+            android:layout_marginBottom="9dp"
+            android:text="Explore"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="37dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="186dp"
+            android:layout_marginBottom="24dp"
+            app:srcCompat="@drawable/current" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="7dp"
+            android:text="Current"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="338dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="26dp"
+            app:srcCompat="@drawable/library" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="328dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="7dp"
+            android:text="status"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="66dp"
+            android:background="@drawable/upper_border" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="342dp"
+        android:layout_height="566dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="268dp"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="308dp"
+            app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.078"
+            app:srcCompat="@drawable/applogo"
+            tools:ignore="NotSibling" />
+
+        <RelativeLayout
+            android:layout_width="109dp"
+            android:layout_height="108dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="244dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginBottom="214dp"
+            android:background="@drawable/solid_border_3">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="31dp"
+                android:background="@drawable/ic_baseline_analytics_24"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="69dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="4dp"
+                android:text="Election"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="122dp"
+            android:layout_height="116dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="182dp"
+            android:layout_marginTop="246dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="211dp"
+            android:background="@drawable/solid_border_3">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="31dp"
+                android:background="@drawable/ic_baseline_analytics_24"></ImageView>
+
+            <TextView
+                android:layout_width="114dp"
+                android:layout_height="27dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="72dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="10dp"
+                android:text="Election"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="122dp"
+            android:layout_height="116dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="389dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="61dp"
+            android:background="@drawable/solid_border_3">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="31dp"
+                android:background="@drawable/ic_baseline_analytics_24"></ImageView>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="75dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="3dp"
+                android:text="Election"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="122dp"
+            android:layout_height="116dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="393dp"
+            android:layout_marginEnd="204dp"
+            android:layout_marginBottom="63dp"
+            android:background="@drawable/solid_border_3">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="61dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="21dp"
+                android:layout_marginBottom="31dp"
+                android:background="@drawable/person"></ImageView>
+
+            <TextView
+                android:layout_width="111dp"
+                android:layout_height="42dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_marginBottom="3dp"
+                android:text="Candidate Information"
+                android:textAlignment="center"
+                android:textStyle="bold"></TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
