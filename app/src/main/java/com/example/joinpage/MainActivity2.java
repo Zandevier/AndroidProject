@@ -30,6 +30,7 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity2.this,MainActivity3.class);
+                //Intent is used to perform actions on the screen
                 startActivity(intent);
             }
         });
