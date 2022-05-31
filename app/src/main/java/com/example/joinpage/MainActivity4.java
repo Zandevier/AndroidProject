@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class MainActivity4 extends AppCompatActivity {
 
-    public ImageView imageView2,imageView3,imageView4;
+    public ImageView imageView2,imageView3,imageView4,election_img;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,7 @@ public class MainActivity4 extends AppCompatActivity {
         imageView2 = (ImageView) findViewById(R.id.imageView2);
         imageView3 = (ImageView) findViewById(R.id.imageView3);
         imageView4 = (ImageView) findViewById(R.id.imageView4);
+        election_img = (ImageView) findViewById(R.id.election_img);
 
 
         imageView2.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +28,13 @@ public class MainActivity4 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent chrome_link  = new Intent(Intent.ACTION_VIEW, Uri.parse("https://results.eci.gov.in/"));
                 startActivity(chrome_link);
+            }
+        });
+        election_img.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                Intent election_link  = new Intent(MainActivity4.this,Election.class);
+//                startActivity(election_link);
             }
         });
         imageView3.setOnClickListener(new View.OnClickListener() {

@@ -17,7 +17,7 @@
         android:background="@drawable/solid_border">
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/username1"
             android:layout_width="253dp"
             android:layout_height="46dp"
             android:layout_alignParentStart="true"
@@ -32,9 +32,9 @@
             android:drawableStart="@drawable/user_logo"
             android:ems="10"
             android:hint="Username"
+            android:inputType="textPersonName"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:inputType="textPersonName"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -82,7 +82,7 @@
         <EditText
             android:id="@+id/voterid"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
@@ -93,11 +93,12 @@
             android:layout_marginBottom="179dp"
             android:background="@drawable/custom_input"
             android:drawableStart="@drawable/number"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
             android:ems="10"
             android:hint="Voter id number"
-            android:inputType="textPersonName"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
@@ -115,7 +116,6 @@
             android:layout_marginEnd="54dp"
             android:layout_marginBottom="115dp"
             android:background="@drawable/custom_input"
-
             android:drawableStart="@drawable/click"
             android:paddingStart="10dp"
             android:paddingTop="6dp"
@@ -145,7 +145,7 @@
             tools:ignore="MissingConstraints" />
 
         <EditText
-            android:id="@+id/password_2"
+            android:id="@+id/password2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -157,15 +157,43 @@
             android:layout_marginEnd="54dp"
             android:layout_marginBottom="326dp"
             android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/lock_icon"
             android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:hint="password"
-            android:drawableStart="@drawable/lock_icon"
-            android:inputType="textPassword"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/uimg"
+            android:layout_width="29dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="262dp"
+            android:layout_marginTop="282dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="263dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/vid_img"
+            android:layout_width="32dp"
+            android:layout_height="27dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="268dp"
+            android:layout_marginTop="421dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="122dp"
+            tools:srcCompat="@tools:sample/avatars" />
 
     </RelativeLayout>
 
