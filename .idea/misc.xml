@@ -9,6 +9,7 @@
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/border_bottom.xml" value="0.2195" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/current.xml" value="0.217" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/custom_input.xml" value="0.2195" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/ic_baseline_analytics_24.xml" value="0.1595" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2195" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/person.xml" value="0.217" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/drawable/solid_border.xml" value="0.2195" />
@@ -20,8 +21,10 @@
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main2.xml" value="0.264" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main3.xml" value="0.264" />
-        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main4.xml" value="0.264" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main4.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main5.xml" value="0.2" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main6.xml" value="0.2" />
+        <entry key="..\:/Users/ninad/AndroidStudioProjects/joinpage/app/src/main/res/layout/activity_main7.xml" value="0.21195652173913043" />
       </map>
     </option>
   </component>

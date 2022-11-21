@@ -213,6 +213,7 @@
             android:background="@drawable/solid_border_3">
 
             <ImageView
+                android:id="@+id/Result_img"
                 android:layout_width="60dp"
                 android:layout_height="61dp"
                 android:layout_alignParentStart="true"
@@ -255,6 +256,7 @@
             android:background="@drawable/solid_border_3">
 
             <ImageView
+                android:id="@+id/evm"
                 android:layout_width="60dp"
                 android:layout_height="61dp"
                 android:layout_alignParentStart="true"
@@ -299,6 +301,7 @@
             android:background="@drawable/solid_border_3">
 
             <ImageView
+                android:id="@+id/candidateinfo"
                 android:layout_width="60dp"
                 android:layout_height="61dp"
                 android:layout_alignParentStart="true"
